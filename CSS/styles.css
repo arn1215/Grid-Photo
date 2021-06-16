@@ -24,20 +24,32 @@ html {
 }
 
 nav {
-    background-color: coral;
+
     grid-area: nav;
     display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+
     
 }
 
 .logo {
     font-size: 30px;
+    letter-spacing: 3px;
 }
 
 .occupation {
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
 }
 
+.navlinks a{ 
+    margin: 20px;
+    text-decoration: none;
+}
 
 
 .sidebar {
