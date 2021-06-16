@@ -122,3 +122,30 @@ footer {
     align-items: center;
     justify-content: flex-end
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+
+.container {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: .2fr 1fr .2fr
+            grid-template-rows: 1fr 1fr 1fr 1fr .08fr;
+            grid-auto-rows: auto;
+            grid-gap: 10px;
+            grid-template-areas: "nav nav nav"
+            "sidebar content1 sidebar2"
+            "sidebar content2 sidebar2"
+            "sidebar content3 sidebar2"
+            "sidebar content4 sidebar2"
+            "sidebar content5 sidebar2"
+            "sidebar content6 sidebar2"
+            "footer footer footer "   
+
+    }
+    
+    
+    
+  }
