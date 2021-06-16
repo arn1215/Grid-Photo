@@ -117,4 +117,8 @@ nav {
 footer {
     
     grid-area: footer;
+    word-spacing:  4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
 }
