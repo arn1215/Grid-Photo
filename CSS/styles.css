@@ -1,0 +1,76 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: .2fr 1fr 1fr 1fr .2fr;
+    grid-template-areas: "nav nav nav nav nav nav nav"
+    "sidebar sidebar content1 content2 content3 sidebar2 sidebar2"
+    "sidebar sidebar content4 content5 content6 sidebar2 sidebar2"
+    "sidebar sidebar content7 content8 content9 sidebar2 sidebar2"
+    
+}
+
+nav {
+    background-color: coral;
+    grid-area: nav;
+}
+
+.sidebar {
+    background-color: rgb(212, 115, 115);
+    grid-area: sidebar;
+}
+
+.sidebar2 {
+    background-color: rgb(226, 168, 168);
+    grid-area: sidebar2;
+}
+
+.content1 {
+    background-color: cornflowerblue;
+    grid-area: content1;
+}
+
+.content2 {
+    background-color: rgb(0, 89, 255);
+    grid-area: content2;
+}
+
+.content3 {
+    background-color: cornflowerblue;
+    grid-area: content3;
+}
+
+.content4 {
+    background-color: rgb(0, 89, 255);
+    grid-area: content4;
+}
+
+.content5 {
+    background-color: cornflowerblue;
+    grid-area: content5;
+}
+
+.content6 {
+    background-color: rgb(0, 89, 255);
+    grid-area: content6;
+}
+
+.content7 {
+    background-color: rgb(0, 89, 255);
+    grid-area: content7;
+}
+
+.content8 {
+    background-color: cornflowerblue;
+    grid-area: content8;
+}
+
+.content9 {
+    background-color: rgb(0, 89, 255);
+    grid-area: content9;
+}
+
+footer {
+    background-color: crimson;
+    grid-area: footer;
+}
