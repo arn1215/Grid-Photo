@@ -1,14 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import './index.css'
+import { ImagePreloader } from 'react-preload-images';
 
 
-import { PreloadImages } from 'react-preload-images';
-import './App.css';
+
 
 const App = () => {
   return (
-    <PreloadImages
+    <ImagePreloader
       images={[
         './Resources/Images/colorarch1(2) INSTA-min.png',
         './Resources/Images/ColorArch4Instagram-min.png',
@@ -77,7 +77,7 @@ const App = () => {
           return <div>Loading...</div>;
         }
       }}
-    </PreloadImages>
+    </ImagePreloader>
   );
 };
 
