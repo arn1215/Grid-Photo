@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0%;
+
+}
+
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr .08fr;
+  grid-gap: 10px;
+  grid-template-areas: "nav nav nav nav nav nav nav"
+  "sidebar sidebar content1 content2 content3 sidebar2 sidebar2"
+  "sidebar sidebar content4 content5 content6 sidebar2 sidebar2"
+  "sidebar sidebar content7 content8 content9 sidebar2 sidebar2"
+  "footer footer footer footer footer footer footer"   
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+nav {
+
+  grid-area: nav;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+
+  
+}
+
+.logo {
+  font-size: 30px;
+  letter-spacing: 6px;
+  margin-left: 60px;
+}
+
+.occupation {
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  
+}
+
+.navlinks a{ 
+  margin: 20px;
+  text-decoration: none;
+  margin-right: 60px;
+}
+
+
+.sidebar {
+  
+  grid-area: sidebar;
+}
+
+.sidebar2 {
+  
+  grid-area: sidebar2;
+}
+
+.content1 {
+  
+  grid-area: content1;
+}
+
+.content2 {
+  
+  grid-area: content2;
+}
+
+.content3 {
+  
+  grid-area: content3;
+}
+
+.content4 {
+  
+  grid-area: content4;
+}
+
+.content5 {
+  
+  grid-area: content5;
+}
+
+.content6 {
+  
+  grid-area: content6;
+}
+
+.content7 {
+  
+  grid-area: content7;
+}
+
+.content8 {
+  
+  grid-area: content8;
+}
+
+.content9 {
+  
+  grid-area: content9;
+}
+
+footer {
+  
+  grid-area: footer;
+  word-spacing:  4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+
+  .container {
+              display: grid;
+              height: 100vh;
+              grid-template-columns: .05fr 1fr .2fr;
+              
+              grid-auto-rows: 1fr;
+              grid-gap: 10px;
+              grid-template-areas: "nav nav nav nav nav nav nav"
+              "sidebar content1 content1 content1 content1 content1 sidebar2"
+              "sidebar content2 content2 content2 content2 content2 sidebar2"
+              "sidebar content3 content3 content3 content3 content3 sidebar2"
+              "sidebar content4 content4 content4 content4 content4 sidebar2"
+              "sidebar content5 content5 content5 content5 content5 sidebar2"
+              "sidebar content6 content6 content6 content6 content6 sidebar2"
+              "sidebar content7 content7 content7 content7 content7 sidebar2"
+              "sidebar content8 content8 content8 content8 content8 sidebar2"
+              "sidebar content9 content9 content9 content9 content9 sidebar2"
+              "footer footer footer footer footer footer footer"   
+  
+      }
+ 
+img {
+  height: auto;
+  width: 100%;
+}
+
+nav {
+
+  grid-area: nav;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+ 
+
+  
+}
+
+.logo {
+  font-size: 30px;
+  letter-spacing: 6px;
+  margin-left: 60px;
+}
+
+.occupation {
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  
+}
+
+.navlinks a{ 
+  margin: 20px;
+  text-decoration: none;
+  margin-right: 60px;
+}
+      
+.sidebar {
+
+  grid-area: sidebar;
+}
+
+.sidebar2 {
+  
+  
+  grid-area: sidebar2;
+}
+
+.content1 {
+  
+  grid-area: content1;
+  margin-top: 80px;
+}
+
+.content2 {
+  
+  grid-area: content2;
+}
+
+.content3 {
+  
+  grid-area: content3;
+}
+
+.content4 {
+  
+  grid-area: content4;
+}
+
+.content5 {
+  
+  grid-area: content5;
+}
+
+.content6 {
+  
+  grid-area: content6;
+}
+
+.content7 {
+  
+  grid-area: content7;
+}
+
+.content8 {
+  
+  grid-area: content8;
+}
+
+.content9 {
+  
+  grid-area: content9;
+}
+
+footer {
+  
+  grid-area: footer;
+  word-spacing:  4px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}        
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+nav {
+
+  grid-area: nav;
+  display: flexbox;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 15px;
+  background-color: white;
+  top: 0%;
+
+
+  
+}
+
+.logo {
+  font-size: 30px;
+  letter-spacing: 6px;
+  margin-left: 60px;
+}
+
+.occupation {
+  font-size: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  
+}
+
+.navlinks a{ 
+  margin: 20px;
+  text-decoration: none;
+  margin-right: 60px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
