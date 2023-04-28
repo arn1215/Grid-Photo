@@ -52,7 +52,7 @@ const App = () => {
                   <img src="Resources/Images/ColorArch8-min.png" alt="" />
               </div>
               <div className="content10">
-                  <img src="Resources/Images/Plants-mixed-layers.png" alt="" />
+                  <img src="Resources/Images/Plants-mixed-layers.png" style={{height: '40px'}} />
               </div>
               <footer>Ali Naqvi 2021</footer>
           </div>
