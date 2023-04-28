@@ -51,6 +51,9 @@ const App = () => {
               <div className="content9">
                   <img src="Resources/Images/ColorArch8-min.png" alt="" />
               </div>
+              <div className="content10">
+                  <img src="Resources/Images/Plants-mixed-layers.png" alt="" />
+              </div>
               <footer>Ali Naqvi 2021</footer>
           </div>
       </>
