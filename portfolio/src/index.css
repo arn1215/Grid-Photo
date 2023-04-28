@@ -37,7 +37,8 @@ body {
   "sidebar sidebar content1 content2 content3 sidebar2 sidebar2"
   "sidebar sidebar content4 content5 content6 sidebar2 sidebar2"
   "sidebar sidebar content7 content8 content9 sidebar2 sidebar2"
-  "footer footer footer footer footer footer footer"   
+  "footer footer footer footer footer footer footer";
+  overflow: scroll;   
 }
 
 img {
