@@ -132,6 +132,10 @@ nav {
   grid-area: content9;
 }
 
+.content10 {
+  grid-area: content10;
+}
+
 footer {
   
   grid-area: footer;
@@ -163,6 +167,7 @@ footer {
               "sidebar content7 content7 content7 content7 content7 sidebar2"
               "sidebar content8 content8 content8 content8 content8 sidebar2"
               "sidebar content9 content9 content9 content9 content9 sidebar2"
+              "sidebar content10 content10 content10 content10 content10 sidebar2"
               "footer footer footer footer footer footer footer"   
   
       }
