@@ -1,16 +1,34 @@
 {
   "files": {
     "main.css": "/Grid-Photo/static/css/main.ae423123.css",
-    "main.js": "/Grid-Photo/static/js/main.814e8057.js",
+    "main.js": "/Grid-Photo/static/js/main.01de71de.js",
     "static/js/787.1ed0c42c.chunk.js": "/Grid-Photo/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Plants-mixed-layers.png": "/Grid-Photo/static/media/Plants-mixed-layers.b20b87c27d97e82c768d.png",
+    "static/media/ColorArch8.png": "/Grid-Photo/static/media/ColorArch8.772c3338fa06627954d9.png",
+    "static/media/ColorArch6.png": "/Grid-Photo/static/media/ColorArch6.0c32e015d01714357407.png",
+    "static/media/Sah.Vvy-118.jpg": "/Grid-Photo/static/media/Sah.Vvy-118.36beca1481d409f1891f.jpg",
+    "static/media/Sah.Vvy-122.jpg": "/Grid-Photo/static/media/Sah.Vvy-122.2f372b4305a31c2e3560.jpg",
+    "static/media/Sah.Vvy-121.jpg": "/Grid-Photo/static/media/Sah.Vvy-121.3f2ad405a34dc1725864.jpg",
+    "static/media/ColorArch6-min.png": "/Grid-Photo/static/media/ColorArch6-min.39001dda36137496593a.png",
+    "static/media/ColorArch8-min.png": "/Grid-Photo/static/media/ColorArch8-min.4827ff8c8d6199e6468b.png",
+    "static/media/Sah.Vvy-118-min.jpg": "/Grid-Photo/static/media/Sah.Vvy-118-min.ea8cb5fd1afbaa028064.jpg",
+    "static/media/Sah.Vvy-122-min.jpg": "/Grid-Photo/static/media/Sah.Vvy-122-min.164eecb384e1dea7c78c.jpg",
+    "static/media/Sah.Vvy-121-min.jpg": "/Grid-Photo/static/media/Sah.Vvy-121-min.18aa1644333493c8c250.jpg",
+    "static/media/ColorArchInstagram1 (1).png": "/Grid-Photo/static/media/ColorArchInstagram1 (1).1f366060ffc4038e0df8.png",
+    "static/media/colorarch1(2) INSTA-min.png": "/Grid-Photo/static/media/colorarch1(2) INSTA-min.4a01f3532deed6df0dd4.png",
+    "static/media/ColorArchInstagram1 (1)-min.png": "/Grid-Photo/static/media/ColorArchInstagram1 (1)-min.9ff3084d31b4176c88a6.png",
+    "static/media/ColorArch4Instagram-min.png": "/Grid-Photo/static/media/ColorArch4Instagram-min.a02990f71b9ba2700a64.png",
+    "static/media/ColorArch2instagram1-min.png": "/Grid-Photo/static/media/ColorArch2instagram1-min.6c0383e559056dcc91e2.png",
     "static/media/logo.svg": "/Grid-Photo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/instagram.svg": "/Grid-Photo/static/media/instagram.4d969dd141d389ed7a2f.svg",
     "index.html": "/Grid-Photo/index.html",
+    "static/media/envelope.svg": "/Grid-Photo/static/media/envelope.97969ee9baa328a40a95.svg",
     "main.ae423123.css.map": "/Grid-Photo/static/css/main.ae423123.css.map",
-    "main.814e8057.js.map": "/Grid-Photo/static/js/main.814e8057.js.map",
+    "main.01de71de.js.map": "/Grid-Photo/static/js/main.01de71de.js.map",
     "787.1ed0c42c.chunk.js.map": "/Grid-Photo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae423123.css",
-    "static/js/main.814e8057.js"
+    "static/js/main.01de71de.js"
   ]
 }
