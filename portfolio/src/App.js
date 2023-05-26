@@ -217,13 +217,11 @@ const App = () => {
                         </div>
                         <button onClick={closeModal} style={{
                             padding: '5px 15px',
-                            fontSize: '1.1em',
                             borderRadius: '5px',
                             border: 'none',
                             background: '#333',
                             color: '#fff',
                             cursor: 'pointer',
-                            fontWeight: '600'
                         }}>
                             Close
                         </button>
