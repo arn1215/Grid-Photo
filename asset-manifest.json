@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Grid-Photo/static/css/main.549fb5a3.css",
-    "main.js": "/Grid-Photo/static/js/main.cf4afc9a.js",
+    "main.css": "/Grid-Photo/static/css/main.da680f16.css",
+    "main.js": "/Grid-Photo/static/js/main.319264f8.js",
     "static/js/787.1ed0c42c.chunk.js": "/Grid-Photo/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG_9790.png": "/Grid-Photo/static/media/IMG_9790.ebc4ecc509484f96eeb0.png",
     "static/media/Plants-mixed-layers.png": "/Grid-Photo/static/media/Plants-mixed-layers.b20b87c27d97e82c768d.png",
@@ -41,12 +41,12 @@
     "static/media/instagram.svg": "/Grid-Photo/static/media/instagram.4d969dd141d389ed7a2f.svg",
     "index.html": "/Grid-Photo/index.html",
     "static/media/envelope.svg": "/Grid-Photo/static/media/envelope.97969ee9baa328a40a95.svg",
-    "main.549fb5a3.css.map": "/Grid-Photo/static/css/main.549fb5a3.css.map",
-    "main.cf4afc9a.js.map": "/Grid-Photo/static/js/main.cf4afc9a.js.map",
+    "main.da680f16.css.map": "/Grid-Photo/static/css/main.da680f16.css.map",
+    "main.319264f8.js.map": "/Grid-Photo/static/js/main.319264f8.js.map",
     "787.1ed0c42c.chunk.js.map": "/Grid-Photo/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.549fb5a3.css",
-    "static/js/main.cf4afc9a.js"
+    "static/css/main.da680f16.css",
+    "static/js/main.319264f8.js"
   ]
 }
