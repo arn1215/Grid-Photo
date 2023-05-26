@@ -61,6 +61,9 @@ const App = () => {
                 <div className="content10">
                     <img src={images['./Plants-mixed-layers.png']} alt="" />
                 </div>
+                <div class="content11">
+                    <img src={images['./IMGP5181.JPG']} alt="" />
+                </div>
                 <footer>Ali Naqvi 2021</footer>
             </div>
         </>
