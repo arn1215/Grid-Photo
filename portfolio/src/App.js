@@ -118,9 +118,9 @@ const App = () => {
                         </div>
                     </div>
                     <div className="navlinks">
-                        <a href="" className="projects">Projects</a>
-                        <a href="" className="about">About</a>
-                        <a href="" className="contact">Contact</a>
+                        <a href="" className="projects" hidden>Projects</a>
+                        <a href="" className="about" hidden>About</a>
+                        <a href="" className="contact" hidden>Contact</a>
                     </div>
                 </nav>
                 <div className="sidebar"></div>
